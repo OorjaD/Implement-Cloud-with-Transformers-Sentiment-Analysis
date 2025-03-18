@@ -2,16 +2,15 @@
 
 ###### |<a href='#1'> Introduction </a> | <a href='#2'> Data </a> | <a href='#3'> Preprocessing </a> |<a href='#4'> Feature Extraction </a>| <a href='#5'> Model </a> | <a href='#6'> Feature Selection </a> |<a href='#7'> Web App </a>| <a href='#8'> Discussion </a> |
 
-###### |<a href='https://jesseqzhen.github.io/NLP_Sentiment_Analysis/'> Python Code HTML Version </a>| <a href='http://jesseqz.pythonanywhere.com/'> Web Application Website </a>|
 
 <a id='1'></a>
 ## Introduction
 
-One of the hot-trend topics in Natural Language Processing (NLP) is sentiment analysis. Sentiment analysis involves extraction of subjective information from documents like posts and reviews to determine the opinion with respect to products, service, events, or ideas.
+Natural Language Processing (NLP) is sentiment analysis. Sentiment analysis involves extraction of subjective information from documents like posts and reviews to determine the opinion with respect to products, service, events, or ideas.
 
-This project uses the customer review data from Amazon.com to perform a supervised binary (positive or negative) sentiment classification analysis. We use various data pre-processing techniques and demonstrate their effectiveness in improving the classification. We also compare three machine learning models, namely, the multinomial Naive Bayes classification model (MultinomialNB), the Logistic regression model (LogisticRegression), and the linear support vector classification model (LinearSVC).  
+This project utilizes customer review data from Amazon.com to conduct a supervised binary sentiment classification, distinguishing between positive and negative reviews. Various data preprocessing techniques are applied, and their impact on classification performance is analyzed. Additionally, we compare the effectiveness of three machine learning models: Multinomial Naive Bayes (MultinomialNB), Logistic Regression (LogisticRegression), and Linear Support Vector Classification (LinearSVC).
 
-The result of the analysis shows that adding negation handling and n-grams modeling techniques into data preprocessing can significantly increase the model accuracy. The result also indicates that SVC model provides the best prediction accuracy. 
+The findings reveal that incorporating negation handling and n-grams into data preprocessing significantly enhances model accuracy. Furthermore, the analysis demonstrates that the LinearSVC model achieves the highest prediction accuracy among the three classifiers.
 
 <a id='2'></a>
 ## Data
@@ -112,16 +111,7 @@ It clearly shows that LinearSVC has the highest accuracy consistently, with Logi
 
 
 <a id='7'></a>
-## Web App
 
-To demonstrate this project, we wrote a **flask** (a lightweight WSGI web application framework [[link]](http://flask.pocoo.org/)) 
-web application. You can enter some review text and let the app analyze the sentiment of your entry. Have fun!
-
-[NLP Sentiment Analysis App](http://jesseqz.pythonanywhere.com/)
-
-
-
-<a id='8'></a>
 ## Discussion 
 Here are some ending throughs through this project.
 
@@ -136,6 +126,3 @@ Here are some ending throughs through this project.
 
 ---
 
-#### Reference
-
-1. [Fast and accurate sentiment classification using an enhanced Naive Bayes model,](https://arxiv.org/abs/1305.6143) Intelligent Data Engineering and Automated Learning IDEAL 2013 Lecture Notes in Computer Science Volume 8206, 2013, pp 194-201.
