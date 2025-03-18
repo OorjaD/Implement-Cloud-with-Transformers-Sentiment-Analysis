@@ -84,8 +84,6 @@ The following table illustrates the model accuracy on the testing dataset by usi
 |Adding negation handling   | 71,853                    | 0.8262         	| 0.8519              	| 0.8562     	|
 |Adding bigrams and trigrams| 2,027,753                 | 0.8584         	| 0.8675              	| 0.8731     	|
 
-^ *Basic preprocessing* procedures include procedures with uni-gram modeling but without negation handling. 
-
 The above table clearly shows that adding negation handling and n-grams modeling techniques can significantly increase the model accuracy. The table also indicates that SVC model provides the best prediction accuracy. 
 
 <a id='6'></a>
